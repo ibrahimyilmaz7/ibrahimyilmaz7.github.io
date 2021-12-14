@@ -15,6 +15,7 @@
 	export let githubHandle;
 	export let linkedinHandle;
 	export let stackOverflowHandle;
+	export let summary;
 </script>
 
 <main>
@@ -30,7 +31,7 @@
 			based in <strong>{location}</strong>
 		</code>
 	</h1>
-	<p id="desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+	<p id="desc">{summary}</p>
 	<p>
 		<a href="https://twitter.com/{twitterHandle}" target="_blank">
 			<Icon data={twitterSquare} class="social-media-icon twitter" scale="3"/>
